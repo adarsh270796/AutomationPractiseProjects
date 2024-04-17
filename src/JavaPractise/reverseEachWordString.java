@@ -19,9 +19,10 @@ public class reverseEachWordString {
 	    	}
 	    	reversedString = reversedString + reverseword+" ";
 	    	
-	    	System.out.println(reversedString);
+	    	
 		
 	}
+	    System.out.println(reversedString);
 	}
 
 }

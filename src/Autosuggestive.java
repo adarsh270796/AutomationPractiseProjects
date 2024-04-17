@@ -12,7 +12,7 @@ public class Autosuggestive {
 
 		driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
 		driver.findElement(By.id("autosuggest")).sendKeys("ind");
-
+  
 		
 		
 	}

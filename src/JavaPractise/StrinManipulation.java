@@ -42,6 +42,13 @@ public class StrinManipulation {
 		String s5= "Hello";
 		System.out.println(s5.concat("bhg"));
 		
+		String abc = "Adarsh   is a Automation   Tester   ";
+		String abcd = abc.replace(" ", "");
+		System.out.println(abcd);
+		
+		String xyz = "Adarsh is an Automation Tester";
+	//	String hjk = ;
+		System.out.println(xyz.split(" ")[3]);
 		
 
 	}

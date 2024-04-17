@@ -1,6 +1,7 @@
 package JavaPractise;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class arrayListExample {
@@ -28,9 +29,29 @@ public class arrayListExample {
 		System.out.println(a.size());
 		System.out.println(a.isEmpty());
 		
+		//printing element using iterator
+//		Iterator <String> it = a.iterator();
+//		while(it.hasNext())
+//		{
+//			System.out.print(it.next());
+//		}
 		
 		
-
+		//Iterating elements using advance for loop
+//		for(String ele : a)
+//			
+//		{
+//			System.out.print(" "+ele);
+//		}
+//	
+		
+		
+		//Iterating elements using for loop
+//		for(int i=0;i<a.size();i++)
+//		{
+//			System.out.print(a.get(i));
+//		}
+	
 	}
 
 }

@@ -17,8 +17,8 @@ public class waits {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
 		//explicit wait
-	//	WebDriverWait wait = new WebDriverWait(driver,5);
-	//	wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("xpath")));
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("xpath")));
 		
 
 	}
